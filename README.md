@@ -1,1 +1,1 @@
-# github-actions-assignment
+Closes #1
