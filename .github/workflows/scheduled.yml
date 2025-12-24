@@ -1,0 +1,13 @@
+name: Scheduled Automation
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # runs every 5 minutes
+
+jobs:
+  task:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run scheduled task
+        run: echo "Scheduled task executed"
